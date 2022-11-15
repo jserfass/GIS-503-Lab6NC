@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Trails of the North Cascades National Park Complex</title>
+        <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+        <!-- Mapbox links -->
+        <link href="https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.css" rel="stylesheet">
+        <script src="https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.js"></script>
+        <!-- link to my css stylesheets -->
+        <link rel="stylesheet" type="text/css" href="legend.css">  
+        <link rel="stylesheet" type="text/css" href="styles.css"> 
+    </head>
+    <body>
+        <div class="transbox">
+        <h1>Trails of the North Cascades National Park Complex</h1>
+        </div>
+        <div id="map" style="height: 75vh">
+            <nav id="menu"></nav>
+            <div id='legend'>
+                <h4>North Cascades National Park Complex Trails</h4>
+                <ul>
+                    <li><hr class="class1"> Class 1 trail: Minimally Developed</li>
+                    <li><hr class="class2"> Class 2 trail: Moderately Developed</li>
+                    <li><hr class="class3"> Class 3 trail: Developed</li>
+                    <li><hr class="class4"> Class 4 trail: Highly Developed</li>
+                    <li><hr class="class5"> Class 5 trail: Fully Developed</li>
+                    <li><hr class="else"> Unknown</li>
+                    <li><hr class="boundary"> Park boundary</li>
+                </ul>
+            </div>
+        </div>
+         <!-- link to my .js file -->
+         <script type="text/javascript" src="data/scripts.js"></script>
+        
+        <div class="transbox">
+        <p1> <br>The above is an interactive, 3d map of the North Cacades National Park Complex, which includes North Cascades National Park, 
+            Ross Lake National Recreation Area, and Lake Chelan National Recreation Area. With this map, users have the ability to explore 
+            the park and it's trails using the following features:<br>
+
+            <br>- The boundary and trails layers can be toggled by clicking on the buttons in the top left portion of the map.<br>
+            <br>- The map can be moved top to bottom and left to right by holding the left mouse button while moving the mouse.<br>
+            <br>- In 3d mode, the map bearing and view angle can be manipulated by moving the mouse while holding down the right
+                  mouse button.<br>
+            <br>- Zoom, north bearing, and location controls are located top-right. Clicking the north bearing control upon map 
+                  loading will put map in 2d view.<br>
+        </p1>
+        </div>
+    </body>
+</html>

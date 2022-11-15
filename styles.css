@@ -1,0 +1,85 @@
+body {
+   font-family: sans-serif;
+	margin: auto;
+   max-width: 900px;}
+
+   body {background-image: url('northcascades.JPG');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+}
+
+
+map {
+   position: relative;
+   height: 80vh;
+   width: 80vw;}
+  
+   #menu {
+      background: #fff;
+      position: absolute; 
+      top: 1.5%;
+      left: 1%;
+      z-index: 1;
+      border-radius: 3px;
+      width: fit-content;
+      border: 1px solid rgba(0, 0, 0, 0.4);
+      font-family: 'Open Sans', sans-serif;
+      }
+      
+      #menu a {
+      font-size: 13px;
+      color: #404040;
+      display: block;
+      margin: 0;
+      padding: 0;
+      padding: 10px;
+      text-decoration: none;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+      text-align: center;
+      }
+      
+      #menu a:last-child {
+      border: none;
+      }
+      
+      #menu a:hover {
+      background-color: #f8f8f8;
+      color: #404040;
+      }
+      
+      #menu a.active {
+      background-color: #3887be;
+      color: #ffffff;
+      }
+      
+      #menu a.active:hover {
+      background: #3074a4;
+      }
+
+    h1 {
+      font-family: Georgia, sans-serif;
+      color: #0066ff;
+      font-size: 80px;
+      text-shadow: 6px 6px 15px white;
+      font-weight: bold;
+      text-align: center;
+   }
+   p1 {
+      font-family: Georgia, sans-serif;
+		color: #0066ff;
+		font-size: 20px;
+		text-shadow: 2px 2px 5px white;
+		font-weight: bold;
+		text-align: center;
+      margin-inline: 1;				
+						}
+   div.transbox {
+      margin: 10px;
+      background-color: #ffffff;
+      border: 1px solid #0066ff;
+      opacity: 0.7;
+      height: fit-content;
+      width: fit-content;
+      padding: 5px;
+                   }                                                     
